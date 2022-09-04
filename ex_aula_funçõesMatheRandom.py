@@ -14,7 +14,7 @@ import random
 #print(random.choice(lista))
 #tupla = ('abacate', 'laranja', 'tomate')
 #print(random.choice(tupla))
-/                      o
+
 print(random.randrange(1,10))
 print(random.choice(range(1,10)))
 
