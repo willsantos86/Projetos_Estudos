@@ -1,19 +1,19 @@
 import math
 
-#print(abs(500))
-#print(abs(-500))
-#print(math.ceil(5.5632))
-#print(math.floor(5.5632))
-#print(math.pow(7,8))
+print(abs(500))
+print(abs(-500))
+print(math.ceil(5.5632))
+print(math.floor(5.5632))
+print(math.pow(7,8))
 
 import random
 
-#string = 'abacate laranja tomate'
-#print(random.choice(string))
-#lista = ['abacate','laranja', 'tomate']
-#print(random.choice(lista))
-#tupla = ('abacate', 'laranja', 'tomate')
-#print(random.choice(tupla))
+string = 'abacate laranja tomate'
+print(random.choice(string))
+lista = ['abacate','laranja', 'tomate']
+print(random.choice(lista))
+tupla = ('abacate', 'laranja', 'tomate')
+print(random.choice(tupla))
 
 print(random.randrange(1,10))
 print(random.choice(range(1,10)))
