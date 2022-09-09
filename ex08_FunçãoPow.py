@@ -1,7 +1,7 @@
-
-import math
 #Crie um programa que solicite as cordenadas de (x,y,z) de três pontos no espaço em três dimensões
 #e mostrará na saída se esses pontos formam ou não um triângulo.
+import math
+
 
 x = [['',''], ['',''], ['','']]
 y = [['',''], ['',''], ['','']]
