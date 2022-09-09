@@ -2,7 +2,7 @@
 # em metros, o tamanho da aresta de uma peça quadrada de cerâmica em cm e o preço do m²
 # da referida cerâmica;imprima quantos m² devem ser adquiridos para pavimentar a referida
 # sala e descubra quanto custará a cerâmica a ser usada.
-
+import math
 
 l= float(input('Digite a largura da área: '))
 largura = l * 100
@@ -13,6 +13,7 @@ print(f'O Tamanho da área é: {c * l}m².')
 tam_peça= float(input(f'Digite o tamanho(cm) da pedra de cerâmica: '))
 tam_rev = tam_peça * tam_peça
 quant_ceramica = área / tam_rev
+print(f'A quantidade total de peças de ceramica é de {math.ceil(quant_ceramica)}')
 preço_peça = float(input('Digite o valor (m²) do revestimento:')) 
 preço_final = preço_peça/ 10000
 preço_tot_ceramica = preço_final * tam_rev
