@@ -39,3 +39,4 @@ print('Se você tentar somar duas variáveis datetime, obterá um erro:')
 print(t2 + t1)
 
 # %%
+
